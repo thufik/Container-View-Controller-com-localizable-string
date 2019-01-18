@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  TestViewController
+
+  Created by EquipeSuporteAplicacao on 4/29/18.
+  Copyright © 2018 EquipeSuporteAplicacao. All rights reserved.
+*/
+
+"welcome" = "Olá";

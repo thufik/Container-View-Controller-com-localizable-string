@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyTabBrController" customModule="TestViewController" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="1c3-Go-OAC" id="eyG-bf-9mg"/>
+                <outlet property="myTabBar" destination="mIg-0y-C8l" id="TkX-R6-cR8"/>
+                <outlet property="view" destination="86F-8n-OML" id="YCl-eF-CAU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="86F-8n-OML">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIg-0y-C8l">
+                    <rect key="frame" x="0.0" y="400" width="375" height="267"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items/>
+                </tabBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1c3-Go-OAC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1c3-Go-OAC" firstAttribute="top" secondItem="86F-8n-OML" secondAttribute="top" id="0yW-wQ-zSi"/>
+                <constraint firstItem="mIg-0y-C8l" firstAttribute="bottom" secondItem="gmo-9c-FGU" secondAttribute="bottom" id="3UJ-WZ-tC4"/>
+                <constraint firstItem="1c3-Go-OAC" firstAttribute="trailing" secondItem="gmo-9c-FGU" secondAttribute="trailing" id="IQl-CJ-Qob"/>
+                <constraint firstItem="mIg-0y-C8l" firstAttribute="height" secondItem="86F-8n-OML" secondAttribute="height" multiplier="0.4" id="PV4-YI-aJJ"/>
+                <constraint firstItem="mIg-0y-C8l" firstAttribute="top" secondItem="1c3-Go-OAC" secondAttribute="bottom" id="XLe-Ft-onW"/>
+                <constraint firstItem="1c3-Go-OAC" firstAttribute="leading" secondItem="gmo-9c-FGU" secondAttribute="leading" id="fGF-SO-uRa"/>
+                <constraint firstItem="mIg-0y-C8l" firstAttribute="leading" secondItem="gmo-9c-FGU" secondAttribute="leading" id="niD-kh-z3D"/>
+                <constraint firstItem="mIg-0y-C8l" firstAttribute="trailing" secondItem="gmo-9c-FGU" secondAttribute="trailing" id="vMP-Kx-OOe"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="gmo-9c-FGU"/>
+            <point key="canvasLocation" x="-95.5" y="230.5"/>
+        </view>
+    </objects>
+</document>
